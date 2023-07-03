@@ -28,7 +28,7 @@ function addChatbotMessage(message) {
 function openaiCall(userMessage, user) {
     const apiUrl = 'https://api.openai.com/v1/chat/completions';
     // Replace the OpenAPI key here
-    const apiKey = 'YOUR_API_KEY';
+    const apiKey = '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';
     const openaiModel = "gpt-3.5-turbo";
     const headers = {
         'Content-Type': 'application/json',
