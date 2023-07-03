@@ -6,7 +6,14 @@
 </head>
 <body>
     <div class="chat-container">
-        <div class="chat-log" id="chat-log"></div>
+        <div class="chat-log" id="chat-log">
+            <div class="message chatbot-message">
+                <span class="message-content">This is chatbot, how can in assit you today!!</span>
+            </div>
+            <div class="message user-message hidden">
+                <span class="message-content"></span>
+            </div>
+        </div>
         <div class="chat-input">
             <input type="text" id="user-input" placeholder="Type your message">
             <button id="send-btn">Send</button>
